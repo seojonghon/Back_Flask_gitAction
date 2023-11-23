@@ -5,6 +5,7 @@ cd /home/ubuntu/Back_Flask
 echo ">>> pip install ----------------------"
 pip install -r requirements.txt
 
+touch /home/ubuntu/Back_Flask/abctest
 
 export FLASK_APP=app
 export FLASK_DEBUG=true
