@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ubuntu/Back_Flask
+  cd /home/ubuntu/Back_Flask
 
 echo ">>> pip install ----------------------"
 pip install -r requirements.txt
@@ -9,7 +9,7 @@ pip install -r requirements.txt
 export FLASK_APP=app
 export FLASK_DEBUG=true
 export REDIS_HOST=redis
-export APP_CONFIG_FILE=/rest-recipe-book/config/production.py
+export APP_CONFIG_FILE=/home/ubuntu/Back_Flask/config/production.py
 export DB_USER=postgres
 export DB_PASSWORD=password
 export DB_HOST=hwan515.synology.me
