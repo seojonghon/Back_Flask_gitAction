@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-rm -rf /home/ubuntu/ssgRecipeBook-flask-backend-main
-mkdir  /home/ubuntu/ssgRecipeBook-flask-backend-main
+rm -rf /home/ubuntu/Back_Flask
+mkdir  /home/ubuntu/Back_Flask
