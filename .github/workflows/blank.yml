@@ -34,7 +34,6 @@ jobs:
       run: |
         aws deploy push \
           --application-name ${{ env.CODE_DEPLOY_APPLICATION_NAME }} \
-
           --s3-location s3://$S3_BUCKET_NAME/$GITHUB_SHA.zip \
           --ignore-hidden-files \
           --source . 
