@@ -6,6 +6,10 @@ from datetime import datetime
 
 bp = Blueprint('post', __name__, url_prefix='/posts')
 
+@bp.route('/test')
+def test():
+    return "test v1"
+
 # 레시피 리스트
 @bp.route('/', methods=['GET'])
 def get_posts():
