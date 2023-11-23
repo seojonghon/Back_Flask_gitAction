@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cd   /home/ubuntu/ssgRecipeBook-flask-backend-main
+cd   /home/ubuntu/Back_Flask
 
 
 echo ">>> pip install ----------------------"
