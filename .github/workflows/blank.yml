@@ -4,7 +4,6 @@ on:
   push:
     branches: [ "main" ]
 
-# 본인 환경에 맞는 또는 본인이 설정한 값으로 설정해야 함
 env:
   AWS_REGION: us-east-1
   S3_BUCKET_NAME: seo2-s3  
