@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# 프로젝트 디렉터리로 이동
 cd /home/ubuntu/Back_Flask
 
 echo ">>> pip install ----------------------"
@@ -12,6 +11,6 @@ rm -rf appspec.yml requirements.txt
 echo ">>> change owner to ubuntu -----------"
 chown -R ubuntu /home/ubuntu/Back_Flask
 
-echo ">>> run app --------------------------"
-chmod +x app.sh
-./app.sh
+echo ">>> run app with Gunicorn -------------"
+
+venv/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
