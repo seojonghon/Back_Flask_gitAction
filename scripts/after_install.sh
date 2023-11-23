@@ -13,7 +13,7 @@ rm -rf appspec.yml requirements.txt
 
 
 echo ">>> change owner to ubuntu -----------"
-chown -R ubuntu /home/ubuntu/ssgRecipeBook-flask-backend-main
+chown -R ubuntu /home/ubuntu/Back_Flask
 
 
 echo ">>> run app --------------------------"
