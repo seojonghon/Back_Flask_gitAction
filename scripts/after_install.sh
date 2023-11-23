@@ -1,6 +1,6 @@
 #!/bin/bash
 
-  cd /home/ubuntu/Back_Flask
+cd /home/ubuntu/Back_Flask
 
 echo ">>> pip install ----------------------"
 pip install -r requirements.txt
