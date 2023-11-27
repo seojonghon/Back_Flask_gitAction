@@ -9,7 +9,10 @@ from flask_wtf.csrf import generate_csrf
 
 bp = Blueprint('members', __name__, url_prefix='/members')
 
-
+@bp.route('/test', methods=['POST'])
+def test():
+    return success
+    
 # 회원가입
 @bp.route('/forms', methods=['POST'])
 def signup():
