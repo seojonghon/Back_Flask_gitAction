@@ -1,0 +1,7 @@
+'
+__pycache__
+SSG_BE
+BE_venv.cmd
+app\__pycache__
+app\api\__pycache__
+config\__pycache__
