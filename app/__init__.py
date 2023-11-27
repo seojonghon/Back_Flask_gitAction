@@ -32,6 +32,7 @@ jwt_redis = redis.StrictRedis(host=os.getenv('REDIS_HOST'), port=6379, db=0, dec
 
 def create_app():
     app = Flask(__name__)
+    ### 설정 파일 위치 지정
     app.config.from_envvar('APP_CONFIG_FILE')
 
     """
