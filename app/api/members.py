@@ -9,7 +9,7 @@ from flask_wtf.csrf import generate_csrf
 
 bp = Blueprint('members', __name__, url_prefix='/members')
 
-@bp.route('/test')
+@bp.route('/test', methods=['GET'])
 def test():
     return "test V2"
 
