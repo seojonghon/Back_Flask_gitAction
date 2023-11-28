@@ -22,9 +22,9 @@ source ./env.sh
 
 cd   /home/ubuntu/recipe_BE
 
-flask db init
-flask db migrate
-flask db upgrade
+touch /home/ubuntu/recipe_BE/log.txt
+
+sudo chown -R ubuntu:ubuntu /home/ubuntu/recipe_BE/
 
 echo ">>> start server ---------------------"
 nohup flask run --host=0.0.0.0 > log.txt 2>&1 &
