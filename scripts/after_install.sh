@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 cd   /home/ubuntu/recipe_BE
 
 
