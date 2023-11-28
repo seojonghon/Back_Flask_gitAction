@@ -332,3 +332,4 @@ def get_username_hook(user_id):
         return user.username
     else:
         return 'null'
+
